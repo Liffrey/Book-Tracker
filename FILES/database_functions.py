@@ -44,7 +44,6 @@ def add_book(title, author, year, last_page=0):
     finally:
         conn.close()
 
-
 def update_books(title, author, year,last_page):
     """Update the information of a book with the given title in the 'books' table"""
     conn = sqlite3.connect(DATABASE_FILE)
@@ -52,7 +51,6 @@ def update_books(title, author, year,last_page):
     c.execute("UPDATE books SET author=?, year=?, last_page=? WHERE title=?", (author, year,last_page, title))
     conn.commit()
     conn.close()
-
 
 def delete_book(title):
     """Delete a book from the 'books' table"""

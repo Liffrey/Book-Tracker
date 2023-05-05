@@ -151,3 +151,9 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 *.db
+FILES/.vs/ProjectSettings.json
+FILES/.vs/slnx.sqlite
+FILES/.vs/VSWorkspaceState.json
+FILES/.vs/FILES/FileContentIndex/8ceda3eb-bffb-484c-9345-3044d8ca2255.vsidx
+FILES/.vs/FILES/FileContentIndex/read.lock
+FILES/.vs/FILES/v17/.wsuo
